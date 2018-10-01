@@ -1,5 +1,4 @@
 class Node(object):
-
     def __init__(self, val):
         self.val = val
         self.left = None
@@ -10,7 +9,6 @@ class Node(object):
         return str(self.val)
 
 class BST(object):
-    
     def __init__(self, root=None):
         self.root = root
 
