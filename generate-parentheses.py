@@ -12,3 +12,4 @@ def generate_parentheses(n):
     return paren_set
 
 print(generate_parentheses(3))
+print(generate_parentheses(4))
