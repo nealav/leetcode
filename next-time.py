@@ -11,7 +11,6 @@ def next_time_permute(S):
             hour -= 1
             if (hour == -1):
                 hour = 23
-
         t2 = ''
         if (hour < 10):
             t2 = t2 + '0' + str(hour)
