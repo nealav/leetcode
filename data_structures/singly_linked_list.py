@@ -1,5 +1,4 @@
 class Node(object):
-
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
@@ -8,7 +7,6 @@ class Node(object):
         return str(self.val)
 
 class SinglyLinkedList(object):
-
     def __init__(self, head=None):
         self.head = head
 
