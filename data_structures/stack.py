@@ -31,6 +31,9 @@ def main():
     s.push(5)
     print(s.pop())
     print(s.peek())
+    print(s.pop())
+    print(s.pop())
+    print(s.is_empty())
     
 if __name__ == '__main__':
     main()
